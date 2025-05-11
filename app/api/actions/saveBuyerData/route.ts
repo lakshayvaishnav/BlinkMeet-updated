@@ -14,7 +14,7 @@ import { clusterApiUrl, Connection } from "@solana/web3.js";
 import nodemailer from "nodemailer";
 import { Time } from "../../create/route";
 
-const connection = new Connection(clusterApiUrl("mainnet-beta"), "confirmed");
+const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
