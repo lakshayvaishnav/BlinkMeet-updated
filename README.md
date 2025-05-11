@@ -1,6 +1,6 @@
-# 🔗 Blinks — Monetize Your Time on Twitter with Solana
+# 🔗 Blink-Meet — Monetize Your Time on Twitter with Solana
 
-**Blinks** is a web application that empowers Twitter influencers to create paid, Solana-powered Zoom meeting links—called **Blinks**—to directly engage with their audience and monetize their time.
+**Blink-Meet** is a web application that empowers Twitter influencers to create paid, Solana-powered Zoom meeting links to directly engage with their audience and monetize their time.
 
 Fans can book time slots by paying with SOL, while influencers manage sessions seamlessly through an intuitive dashboard.
 
@@ -36,6 +36,8 @@ Here’s how it works in a nutshell:
 
 - Node.js ≥ 18
 - npm
+- Docker
+- Mongo Compass
 - Solana CLI (for generating wallets)
 - Phantom wallet (for browser testing)
 - Google OAuth credentials (for NextAuth)
