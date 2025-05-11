@@ -44,7 +44,7 @@ export default function TimeSlotForm() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    const linkToCopy = `https://blink-meet.vercel.app/join/${blinkId}`;
+    const linkToCopy = `https://blink-meet-updated.vercel.app/join/${blinkId}`;
     navigator.clipboard.writeText(linkToCopy).then(() => {
       setCopied(true);
       setTimeout(() => {
