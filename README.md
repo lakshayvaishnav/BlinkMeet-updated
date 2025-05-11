@@ -18,7 +18,7 @@ Fans can book time slots by paying with SOL, while influencers manage sessions s
 
 ## 🖼️ Demo
 
-Watch the full walkthrough video here: [![Watch the demo](public/landingpage.png)](https://youtu.be/AvDOn6HwFfQ)
+Clilck to Watch the full walkthrough video here : [![Watch the demo](public/landingpage.png)](https://youtu.be/AvDOn6HwFfQ)
 Here’s how it works in a nutshell:
 
 1. Visit the landing page and log in via Google.
