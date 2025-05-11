@@ -22,7 +22,9 @@ const Header = async () => {
 
         {!user ? (
           <div className="flex items-center gap-4">
-            <Link href="/auth/signin">Login</Link>
+            <Button className="rounded-full uppercase font-medium text-sm">
+              <Link href="/auth/signin">Login</Link>
+            </Button>
             <Link href="/auth/signin">
               <Button className="rounded-full uppercase font-medium text-sm">
                 Sign up

@@ -91,7 +91,7 @@ const Containers = () => {
   }, [selectedSession]);
 
   return (
-    <div className="p-8 h-screen md:w-full bg-gray-900 text-white">
+    <div className="p-8 h-screen  bg-gray-900 text-white">
       <nav className="flex gap-10 mb-10 py-2">
         <Link href="#" className="hover:text-blue-400 transition">
           {/* Sessions */}

@@ -4,7 +4,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <main className="w-full lg:w-[1800px] mx-auto">
+    <main className="w-full overflow-x-hidden overflow-y-hidden mx-auto">
       <Header />
       <Hero />
     </main>

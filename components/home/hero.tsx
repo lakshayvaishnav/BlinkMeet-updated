@@ -20,13 +20,13 @@ const Hero = () => {
 
   return (
     <motion.div
-      className="md:mt-20 p-4 lg:grid lg:grid-cols-2 flex flex-col items-center"
+      className="md:mt-20 p-4 lg:grid lg:grid-cols-2 flex flex-col items-center "
       variants={containerVariants}
       initial="hidden"
       animate="visible"
     >
       <div className="flex gap-3 flex-col items-center justify-center lg:items-start p-4">
-        <h1 className="md:text-6xl text-2xl font-bold tracking-tight text-center lg:text-start bg-gradient-to-r from-[#9945FF]  to-[#14F195] bg-clip-text text-transparent">
+        <h1 className=" text-5xl font-bold tracking-tight text-center lg:text-start bg-gradient-to-r from-[#9945FF]  to-[#14F195] bg-clip-text text-transparent">
           Monetize Your Time, Connect with Your Audience
         </h1>
         <p className="text-2xl text-white/65 md:text-base text-muted-foreground text-center lg:text-start">
@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
       </div>
       <motion.div
-        className="relative h-[400px] md:min-h-[600px] mt-5 md:mt-10 lg:mt-0 bg-black/65 rounded-2xl flex items-center justify-center w-[360px] md:w-[850px]"
+        className="relative h-[400px] lg:min-h-[500px] mt-5 mr-5  lg:mt-0  rounded-2xl right-20 flex items-center justify-center w-[360px] md:w-[850px]"
         animate={{ y: [0, -10, 0] }} // Float effect
         transition={{ duration: 2, ease: "easeInOut", repeat: Infinity }} // Smooth transition
       >
