@@ -18,7 +18,7 @@ Fans can book time slots by paying with SOL, while influencers manage sessions s
 
 ## 🖼️ Demo
 
-Watch the full walkthrough video here:   
+Watch the full walkthrough video here: [!demo video]("./landingpage.png")(https://youtu.be/AvDOn6HwFfQ)
 Here’s how it works in a nutshell:
 
 1. Visit the landing page and log in via Google.
@@ -49,6 +49,7 @@ git clone https://github.com/yourusername/blinks.git
 cd blinks
 npm install
 ```
+
 add all the environment variables fron .env.sample
 then:
 
@@ -56,5 +57,3 @@ then:
 npx prisma db push
 npm run start
 ```
-
-
